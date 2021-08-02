@@ -1,0 +1,53 @@
+div {
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  h1{
+    margin-bottom: 60px;
+  }
+  table,
+  th,
+  td,
+  tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+  }
+  th {
+    background-color: #005CC8;
+    color: white;
+  }
+  th,
+  td {
+    width: 150px;
+    height: 25px;
+  }
+
+  input[type="text"] {
+    width: 300px;
+    height: 30px;
+    outline: none;
+  }
+  input[type="text"]:focus{
+    border:1px solid #005CC8; ;
+  }
+  input[type="button"] {
+    width: 100px;
+    height: 35px;
+    border: 1px solid #005CC8;
+    background-color: lightskyblue;
+  }
+  img,
+  input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    
+  }
+  .linethrough {
+    text-decoration: line-through;
+  }
+  .table{
+    height: 300px;
+    overflow: scroll;
+  }
